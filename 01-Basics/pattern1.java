@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class patterns{
+public class pattern1{
     public static void main(String[] args) {
         System.out.print("Enter value of n: ");
         Scanner sc = new Scanner(System.in);
