@@ -30,14 +30,15 @@ public class pattern3{
 
         int space = 0;
 
-        for(int i = 1;i<=n;i++)
+        for(int i = 1;i<n;i++)
         {
+            space += 2;
             
             for(int j=1;j<=n-i;j++)
             {
                 System.out.print("*");
             }
-            for(int j=0;j<=space;j++)
+            for(int j=1;j<=space;j++)
             {
                 System.out.print(" ");
             }
@@ -46,7 +47,6 @@ public class pattern3{
                 System.out.print("*");
             }
 
-            space += 2;
 
             System.out.println("");
         }
